@@ -1,0 +1,27 @@
+{
+	"name": "news-aggregator-assignment-2",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"repository": "https://github.com/shvmdev/news-aggregator-api.git",
+	"author": "Shivam Gupta",
+	"private": false,
+	"scripts": {
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js",
+		"test": "mocha --recursive src/test/**/*.js --exit"
+	},
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"body-parser": "^1.20.2",
+		"chai": "^4.3.7",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.0",
+		"mocha": "^10.2.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	}
+}

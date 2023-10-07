@@ -1,0 +1,12 @@
+{
+	"news": [],
+	"users": {
+		"hassan.raza@gmail.com": {
+			"name": "Shivam Gupta",
+			"email": "hassan.raza@gmail.com",
+			"password": "$2b$08$nJtBBZtPy7tCdVNAZnoC6.Oj7SLtBOMLaMuVQdWN.shAIN1cIV1SG",
+			"preferences": ["sports", "music", "politics"],
+			"createdAt": "2023-07-04T16:12:38.912Z"
+		}
+	}
+}
